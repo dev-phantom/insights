@@ -9,7 +9,7 @@ import MLIcon from "/img/icons/🧠.svg";
 import RustIcon from "/img/icons/🦀.svg";
 
 interface LanguagePillProps {
-  topic: "react" | "javascript" | "python" | "ML" | "AI" | "rust" | string;
+  topic: "react" | "javaScript" | "python" | "ML" | "AI" | "rust" | string;
   classNames?: string;
   onClick?: () => void;
 }

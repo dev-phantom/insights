@@ -12,7 +12,7 @@ export const LanguagePillDefault = LanguagePillTemplate.bind({});
 export const LanguagePillSelected = LanguagePillTemplate.bind({});
 
 LanguagePillDefault.args = {
-  topic: "javascript"
+  topic: "javaScript"
 };
 
 LanguagePillSelected.args = {

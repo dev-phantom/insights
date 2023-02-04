@@ -41,7 +41,7 @@ const UserSettingsPage = ({ user }: userSettingsPageProps) => {
     receive_collaboration: false
   });
   const [selectedInterest, setSelectedInterest] = useState<string[]>([]);
-  const interestArray = ["javascript", "python", "rust", "ML", "AI", "react"];
+  const interestArray = ["javaScript", "python", "rust", "ML", "AI", "react"];
 
   useEffect(() => {
     async function fetchAuthSession() {
